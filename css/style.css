@@ -1,0 +1,41 @@
+* {
+      box-sizing: border-box;
+}
+
+body{
+   margin: 100px;
+}
+
+.field{
+   width: 500px;
+   height: 500px;
+   margin: 0 auto;
+   display: flex;
+   flex-wrap: wrap;
+   background-color: rgb(243, 226, 226);
+}
+
+.excel{
+   width: 50px;
+   height: 50px;
+   padding: 5px;
+}
+
+/* создание змейки */
+.snakeBody {
+   background: url(../img/rasved.png);
+   background-size: cover;
+   border-radius: 10%;
+}
+
+.head{
+   background: url(../img/shingek.png);
+   background-size: cover;
+   border-radius: 30%;
+}
+
+.mouse{
+   background: url(../img/titan.png);
+   background-size: cover;
+   border-radius: 20%;
+}
